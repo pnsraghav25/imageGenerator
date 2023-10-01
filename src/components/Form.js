@@ -15,7 +15,7 @@ export default class Form extends Component {
             }
             else{
                 res.innerHTML =``
-                h3.innerHTML= 'Images are generated from Lorem Picum'
+                h3.innerHTML= 'Images are generated from Lorem Picsum'
                 for (let i = 1; i <= val.value; i++) {
                     const k =Math.ceil(Math.random()*(100))
                     var img = document.createElement("img")
